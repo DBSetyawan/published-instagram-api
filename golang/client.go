@@ -13,7 +13,7 @@ import (
 	"github.com/go-resty/resty/v2"
 )
 
-const BaseUrl = "http://localhost:8000"
+const BaseUrl = "https://pt-krisanthium-offset-printing.herokuapp.com"
 
 var client *resty.Client
 

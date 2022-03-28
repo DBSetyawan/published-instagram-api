@@ -6,7 +6,7 @@ from main import app
 
 @pytest.mark.asyncio
 async def test_media_pk_from_code() -> None:
-    async with AsyncClient(app=app, base_url="http://test") as ac:
+    async with AsyncClient(app=app, base_url="https://pt-krisanthium-offset-printing.herokuapp.com") as ac:
         response = await ac.get(
             app.url_path_for("media_pk_from_code"),
             params={"code": "B1LbfVPlwIA"}
@@ -17,7 +17,7 @@ async def test_media_pk_from_code() -> None:
 
 @pytest.mark.asyncio
 async def test_media_info() -> None:
-    async with AsyncClient(app=app, base_url="http://test") as ac:
+    async with AsyncClient(app=app, base_url="https://pt-krisanthium-offset-printing.herokuapp.com") as ac:
         response = await ac.get(
             app.url_path_for("media_info"),
             params={"pk": 2110901750722920960}

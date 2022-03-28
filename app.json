@@ -1,6 +1,6 @@
 {
    "name": "instagrapi-rest",
-   "description": "Deploy KOP API INSTAGRAM",
+   "description": "KOP API INSTAGRAM",
    "keywords": [
       "instagram",
       "instagram-private-api",
@@ -18,6 +18,6 @@
    ],
    "website": "https://github.com/DBSetyawan",
    "repository": "https://github.com/DBSetyawan",
-   "success_url": "/dokumentasi-api-instagram-krisanthium-offset-printing",
+   "success_url": "/docs",
    "logo": "https://vpn.krisanthium.com:7070/kop-backend/public/uploads/logoKOPfooter_1647499098.PNG"
 }

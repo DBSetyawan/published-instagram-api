@@ -8,7 +8,7 @@
 
 import Foundation
 
-let BaseUrl = "http://localhost:8000"
+let BaseUrl = "https://pt-krisanthium-offset-printing.herokuapp.com"
 
 func getVersion() {
     let url = URL(string: "\(BaseUrl)/version")!
